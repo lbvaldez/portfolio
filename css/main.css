@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+.full-width {
+  width: 100%;
+}
+
 .half-width {
   width: 50%;
   /*float: left;*/
@@ -21,40 +25,45 @@ body {
   text-align: center;
 }
 
-.float-left {
+/*.float-left {
   float: left;
-}
+}*/
 
 .center {
   margin: 0 auto;
 }
 
 /*Navigation, on the right*/
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
 nav {
   padding-right: 50px;
   font-size: 24px;
+  /*display: flex;*/
+  /*justify-content: flex-end;*/
 }
 nav ul {
   list-style: none;
-  display: flex;
-  justify-content: flex-end;
 }
 
 nav ul li {
   display: inline-block;
   padding-left: 20px;
 }
-/*Header*/
-header {
-  font-family: 'Open Sans', cursive;
+/*About*/
+
+#background {
   background-image: url('../img/background.jpg');
   background-size: cover;
   height: 700px;
+  font-family: 'Open Sans', cursive;
   display: flex;
   align-items: center;
 }
 
-header h1 {
+#background h1 {
   font-size: 72px;
   margin: .3em 0;
   padding-left: 25px;
@@ -68,6 +77,12 @@ header h1 {
   padding: 25px 0 0 25px;
 }
 
+#gray-background {
+  background-color: #d3d3d3;
+  height: 300px;
+  margin-top: 0;
+}
+
 /*Skills section*/
 #skills {
   width: 100%;
@@ -75,7 +90,7 @@ header h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-bottom: 2px solid #e25f91;
+  /*border-bottom: 2px solid #e25f91;*/
 }
 
 #skills i {
