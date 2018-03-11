@@ -1,5 +1,7 @@
 body {
   font-family: 'prata', serif;
+  padding: 0;
+  margin: 0;
 }
 
 .color {
@@ -41,6 +43,8 @@ body {
 nav {
   padding-right: 50px;
   font-size: 24px;
+  align-items: center;
+  justify-content: center;
   /*display: flex;*/
   /*justify-content: flex-end;*/
 }
@@ -53,6 +57,9 @@ nav ul li {
   padding-left: 20px;
 }
 /*About*/
+header h1 {
+  font-size: 24px;
+}
 
 #background {
   background-image: url('../img/background.jpg');
@@ -61,6 +68,8 @@ nav ul li {
   font-family: 'Open Sans', cursive;
   display: flex;
   align-items: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 #background h1 {
@@ -75,12 +84,17 @@ nav ul li {
   font-size: 32px;
   line-height: 42px;
   padding: 25px 0 0 25px;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 #gray-background {
   background-color: #d3d3d3;
   height: 300px;
   margin-top: 0;
+  display: flex;
+  align-items: center;
 }
 
 /*Skills section*/
@@ -95,6 +109,14 @@ nav ul li {
 
 #skills i {
   color: #ff6840;
+}
+
+#skills p {
+  font-size: 32px;
+}
+
+#skills h2 {
+  font-size: 48px;
 }
 /*Contact Section*/
 #contact h2, p {
@@ -119,4 +141,8 @@ nav ul li {
 
 #img-2 {
   padding-left: 25px;
+}
+
+footer {
+  display: flex;
 }
