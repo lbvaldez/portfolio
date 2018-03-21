@@ -55,13 +55,17 @@ nav ul {
   color: #e46594;
 }
 
+.color a {
+  text-decoration: none;
+}
+
 nav ul li {
   display: inline-block;
   padding-left: 20px;
 }
 
 /*Skills section, with pink background*/
-#background {
+.background {
   background-image: url('../img/background-best.png');
   background-size: cover;
   height: 700px;
@@ -144,6 +148,49 @@ footer {
 }
 
 /*RESUME*/
-.navbar-nav {
-    flex-direction: row;
+.box {
+  background-color: lightgrey;
+  width: 80%;
+  height: 200px;
+  margin-bottom: 25px;
+  color: black;
+  padding-top: 15px;
+}
+
+/*Skills bars*/
+
+.third-width h1 {
+  text-align: left;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  background-color: #919191;
+  height: 25px;
+}
+
+.skill {
+  text-align: right;
+  color: white;
+}
+
+#html {
+  width: 80%;
+  background-color: #e06090;
+}
+
+#css {
+  width: 80%;
+  background-color: #e06090;
+}
+
+#javascript {
+  width: 30%;
+  background-color: #e06090;
+}
+
+#photoshop {
+  width: 20%;
+  background-color: #e06090;
 }
