@@ -21,6 +21,7 @@ body {
 .third-width {
   width: 33.33%;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .center {
@@ -66,7 +67,7 @@ nav ul li {
 
 /*Skills section, with pink background*/
 .background {
-  background-image: url('../img/background-best.png');
+  background-image: url('../img/background-image-bestbig.png');
   background-size: cover;
   height: 700px;
   font-family: 'Open Sans', cursive;
@@ -74,6 +75,7 @@ nav ul li {
   align-items: center;
   margin-bottom: 0;
   padding-bottom: 0;
+  box-sizing: border-box;
 }
 
 #skills {
@@ -148,21 +150,32 @@ footer {
 }
 
 /*RESUME*/
+
+/*Boxes for work, education, and web development*/
+#pink-background {
+    background-image: url('../img/background.jpg');
+}
+
 .box {
-  background-color: lightgrey;
+  background: linear-gradient(rgba(145, 145, 145, .5), rgba(145, 145, 145, .5));
   width: 80%;
-  height: 200px;
-  margin-bottom: 25px;
-  color: black;
+  height: 275px;
+  margin: 0 0 25px 25px;
+  color: white;
   padding-top: 15px;
 }
 
-/*Skills bars*/
-
 .third-width h1 {
+  padding-left: 50px;
   text-align: left;
   color: white;
 }
+
+.background h1 {
+  margin: auto;
+}
+
+/*Skills bars*/
 
 .container {
   width: 100%;
@@ -170,9 +183,19 @@ footer {
   height: 25px;
 }
 
+/*.float {
+  float: left;
+}*/
+
 .skill {
   text-align: right;
   color: white;
+}
+
+.flex-test {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #html {
@@ -193,4 +216,22 @@ footer {
 #photoshop {
   width: 20%;
   background-color: #e06090;
+}
+
+#padding-top {
+  padding-top: 50px;
+}
+/*WORK PAGE*/
+#work-page {
+  text-align: center;
+}
+
+#work-examples {
+  display: flex;
+  justify-content: center;
+}
+
+#work-examples img {
+  width: 100%;
+  margin: auto;
 }
